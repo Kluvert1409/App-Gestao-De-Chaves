@@ -1,7 +1,5 @@
 package com.github.Kluvert1409.devandroid;
 
-import com.github.Kluvert1409.devandroid.R;
-
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
