@@ -16,18 +16,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
-            android:text="Fazer login como:"
+            android:text="@string/fazer_login_como"
             android:fontFamily="@font/archivo_black"
             android:textSize="25sp"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="40dp"
             android:layout_gravity="center" />
 
     <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Professor"
+            android:layout_height="60dp"
+            android:text="@string/professor"
             android:backgroundTint="@color/darkGreen"
             android:textColor="@color/white"
             android:layout_marginBottom="10dp"
@@ -36,7 +36,7 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="OU"
+            android:text="@string/ou"
             android:textSize="12sp"
             android:textColor="@color/gray"
             android:layout_marginBottom="10dp"
@@ -45,8 +45,8 @@
 
     <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Porteiro"
+            android:layout_height="60dp"
+            android:text="@string/porteiro"
             android:backgroundTint="@color/darkGreen"
             android:textColor="@color/white"
             android:textStyle="bold" />
