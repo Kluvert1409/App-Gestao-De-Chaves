@@ -4,4 +4,7 @@
     <string name="porteiro">Porteiro</string>
     <string name="professor">Professor</string>
     <string name="fazer_login_como">Fazer login como:</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
 </resources>
