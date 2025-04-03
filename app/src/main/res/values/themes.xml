@@ -14,7 +14,10 @@
     
     <style name="BotoesTelaPrincipal">
         <item name="android:layout_height">120dp</item>
-        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="iconSize">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="cornerRadius">20dp</item>
         <item name="android:backgroundTint">#C0C0C0</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">13sp</item>
