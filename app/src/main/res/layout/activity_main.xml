@@ -25,6 +25,7 @@
             android:layout_gravity="center" />
 
     <Button
+            android:id="@+id/botao_professor"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:textSize="15sp"
@@ -45,6 +46,7 @@
 
 
     <Button
+            android:id="@+id/botao_porteiro"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:textSize="15sp"
