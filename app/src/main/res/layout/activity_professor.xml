@@ -29,57 +29,41 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_weight="1" />
-
     </LinearLayout>
 
     <GridLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            style="@style/DefaultPosition"
             android:columnCount="3"
             android:rowCount="2"
+            android:padding="16dp"
             android:layout_marginTop="20dp">
 
         <com.google.android.material.button.MaterialButton
-                android:layout_marginRight="5dp"
                 style="@style/BotoesTelaPrincipal"
                 android:text="Reservar"
-                app:icon="@drawable/reservar"
-                app:iconSize="60dp"
-                app:iconGravity="textTop"
-                app:iconPadding="5dp"/>
+                app:icon="@drawable/reservar" />
 
         <com.google.android.material.button.MaterialButton
-                android:layout_marginRight="5dp"
                 style="@style/BotoesTelaPrincipal"
                 android:text="Consultar"
-                app:icon="@drawable/search"
-                app:iconGravity="textTop"
-                app:iconPadding="15dp"/>
+                app:icon="@drawable/search"/>
 
         <com.google.android.material.button.MaterialButton
-                android:layout_marginRight="5dp"
                 style="@style/BotoesTelaPrincipal"
-                android:text="Laboratório"
-                app:icon="@drawable/laborat_rios"
-                app:iconSize="65dp"
-                app:iconGravity="textTop"
-                app:iconPadding="0dp"/>
+                android:text="Laboratórios"
+                app:icon="@drawable/laborat_rios"/>
 
         <com.google.android.material.button.MaterialButton
-                android:layout_marginRight="5dp"
                 style="@style/BotoesTelaPrincipal"
                 android:text="Chaves"
-                app:icon="@drawable/chaves"
-                app:iconGravity="textTop"
-                app:iconPadding="15dp"/>
+                app:icon="@drawable/chaves"/>
 
     </GridLayout>
 
     <TextView
             style="@style/DefaultPosition"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:layout_marginBottom="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -87,5 +71,4 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
-
 </LinearLayout>

@@ -11,15 +11,25 @@
         <item name="android:layout_marginLeft">16dp</item>
         <item name="android:layout_marginRight">16dp</item>
     </style>
-    
+
     <style name="BotoesTelaPrincipal">
-        <item name="android:layout_height">120dp</item>
-        <item name="android:layout_width">120dp</item>
-        <item name="iconSize">50dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_columnSpan">1</item>
+        <item name="iconGravity">textTop</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:minHeight">100dp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="iconSize">36dp</item>
+        <item name="iconPadding">4dp</item>
         <item name="android:gravity">center</item>
         <item name="cornerRadius">20dp</item>
         <item name="android:backgroundTint">#C0C0C0</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">13sp</item>
+        <item name="android:padding">8dp</item>
     </style>
+
 </resources>
