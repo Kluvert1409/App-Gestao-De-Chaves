@@ -28,7 +28,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
     </LinearLayout>
 
     <GridLayout
@@ -47,22 +47,22 @@
         <com.google.android.material.button.MaterialButton
                 style="@style/BotoesTelaPrincipal"
                 android:text="Consultar"
-                app:icon="@drawable/search"/>
+                app:icon="@drawable/search" />
 
         <com.google.android.material.button.MaterialButton
                 style="@style/BotoesTelaPrincipal"
                 android:text="Laboratórios"
-                app:icon="@drawable/laborat_rios"/>
+                app:icon="@drawable/laborat_rios" />
 
         <com.google.android.material.button.MaterialButton
                 style="@style/BotoesTelaPrincipal"
                 android:text="Chaves"
-                app:icon="@drawable/chaves"/>
+                app:icon="@drawable/chaves" />
 
         <com.google.android.material.button.MaterialButton
                 style="@style/BotoesTelaPrincipal"
                 android:text="Professores"
-                app:icon="@drawable/professores"/>
+                app:icon="@drawable/professores" />
 
     </GridLayout>
 
