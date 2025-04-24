@@ -13,6 +13,9 @@
             android:theme="@style/Theme.ProjetoDevAndroid"
             tools:targetApi="31">
         <activity
+                android:name=".ReservaDeChaves"
+                android:exported="false" />
+        <activity
                 android:name=".LoginPorteiro"
                 android:exported="false" />
         <activity
