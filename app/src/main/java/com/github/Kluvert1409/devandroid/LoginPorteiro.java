@@ -33,5 +33,15 @@ public class LoginPorteiro extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button botaoCadastro = findViewById(R.id.botao_cadastro);
+
+        botaoCadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginPorteiro.this, CadastroPorteiro.class);
+                startActivity(intent);
+            }
+        });
     }
 }

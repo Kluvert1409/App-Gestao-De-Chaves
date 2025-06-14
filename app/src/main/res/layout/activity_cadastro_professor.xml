@@ -14,12 +14,13 @@
             android:layout_gravity="center" />
 
     <EditText
+            android:id="@+id/editTextNome"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="50dp"
             android:inputType="textPersonName"
             android:autofillHints="name"
-            android:hint="@string/usuario"
+            android:hint="Nome completo"
             android:textColor="@color/black"
             android:background="@drawable/rounded_edittext"
             android:gravity="center"
@@ -27,53 +28,50 @@
             android:layout_marginBottom="10dp" />
 
     <EditText
+            android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:inputType="textPassword"
-            android:autofillHints="password"
-            android:hint="@string/senha"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress"
+            android:hint="E-mail institucional"
             android:textColor="@color/black"
             android:background="@drawable/rounded_edittext"
             android:gravity="center"
             android:textStyle="bold"
             android:layout_marginBottom="10dp" />
 
+    <EditText
+            android:id="@+id/editTextSenha"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:autofillHints="password"
+            android:hint="Senha"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded_edittext"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+    <Spinner
+            android:id="@+id/spinnerMateria"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_edittext"
+            android:padding="10dp"
+            android:spinnerMode="dropdown"
+            android:entries="@array/materias_array" />
+
     <Button
-            android:id="@+id/botao_login"
+            android:id="@+id/botao_cadastrar"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:textSize="15sp"
-            android:layout_marginTop="40dp"
-            android:text="@string/entrar"
+            android:text="Cadastrar"
             android:backgroundTint="@color/darkGreen"
             android:gravity="center"
             android:textStyle="bold" />
-
-    <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="40dp"
-            android:orientation="horizontal">
-
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ainda não possui uma conta?"
-                android:textSize="16dp"
-                android:textColor="@color/darkGreen" />
-
-        <Button
-                android:id="@+id/botao_cadastro"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="CADASTRE-SE"
-                android:textSize="16sp"
-                android:textColor="@color/darkGreen"
-                android:background="@android:color/transparent"
-                android:textStyle="bold"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp" />
-    </LinearLayout>
 
 </LinearLayout>

@@ -7,4 +7,10 @@
     <string name="usuario">Usuário</string>
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
+    <string-array name="materias_array">
+        <item>Área da Saúde</item>
+        <item>Área de Ciências e Tecnologia</item>
+        <item>Área de Educação e Humanas</item>
+    </string-array>
+
 </resources>

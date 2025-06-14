@@ -4,7 +4,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         style="@style/DefaultPosition"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp">
 
     <ImageView
             android:src="@drawable/logounivc"
@@ -48,13 +49,31 @@
             android:gravity="center"
             android:textStyle="bold" />
 
-    <TextView
+    <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
             android:layout_gravity="center"
-            android:textSize="16dp"
-            android:textColor="@color/darkGreen"
-            android:text="Ainda não possui uma conta? CADASTRE-SE" />
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ainda não possui uma conta?"
+                android:textSize="16dp"
+                android:textColor="@color/darkGreen" />
+
+        <Button
+                android:id="@+id/botao_cadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CADASTRE-SE"
+                android:textSize="16sp"
+                android:textColor="@color/darkGreen"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+    </LinearLayout>
 
 </LinearLayout>

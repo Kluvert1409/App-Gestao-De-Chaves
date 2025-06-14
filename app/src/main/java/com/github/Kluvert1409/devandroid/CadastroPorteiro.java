@@ -11,35 +11,25 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class LoginProfessor extends AppCompatActivity {
+public class CadastroPorteiro extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_login_professor);
+        setContentView(R.layout.activity_cadastro_porteiro);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        Button botaoLogin = findViewById(R.id.botao_login);
+        Button botaoCadastrar = findViewById(R.id.botao_cadastrar);
 
-        botaoLogin.setOnClickListener(new View.OnClickListener() {
+        botaoCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginProfessor.this, ActivityProfessor.class);
-                startActivity(intent);
-            }
-        });
-
-        Button botaoCadastro = findViewById(R.id.botao_cadastro);
-
-        botaoCadastro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(LoginProfessor.this, CadastroProfessor.class);
+                Intent intent = new Intent(CadastroPorteiro.this, LoginPorteiro.class);
                 startActivity(intent);
             }
         });
